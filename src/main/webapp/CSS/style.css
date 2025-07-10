@@ -1,0 +1,66 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: deepskyblue;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+p{
+    margin-top: 80px;
+    color: black;
+    font-size: 12px;
+}
+
+.heading{
+    position: absolute;
+    top: 0; /* Aligns it to the top */
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: gold;
+    box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.58);
+    padding: 20px;
+}
+.container {
+
+    text-align: center;
+}
+input[type="text"], input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center
+}
+#button {
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    background-color: deepskyblue;
+    border-style: none;
+    display: inline-block; /* Prevents stretching */
+    text-align: center;
+    width: fit-content; /* Ensures button sizes to content */
+    margin: 40px auto 0 auto; /* Centers the button */
+}
+#button:hover {
+    background-color: gold;
+}
+.switch-link {
+    margin-top: 20px;
+    display: block;
+}
+
+.error-message{
+    color: red;
+}
