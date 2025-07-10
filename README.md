@@ -45,10 +45,6 @@ LibraryNotificationSystem/
 │ └── CSS/
 │ └── style.css # Styling for all pages
 
-Copy
-Edit
-
-
 ---
 
 ## 🧪 How to Run
