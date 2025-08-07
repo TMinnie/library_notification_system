@@ -1,0 +1,7 @@
+com\library\RegistrationServlet.class
+com\library\LogoutServlet.class
+com\library\HomeServlet.class
+com\library\NotificationEndpoint.class
+com\library\SendNotificationServlet.class
+com\library\LoginServlet.class
+com\library\resources\JakartaEE10Resource.class
