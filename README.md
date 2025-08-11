@@ -9,9 +9,8 @@ A real-time web-based notification system for library environments. It allows ad
 - 🔒 **Role-Based Access**: Admins and users access different pages
 - 💬 **Real-Time Notifications**: Instant message delivery using WebSockets
 - 🧩 **JSP + Servlet Architecture**: Built with Java EE standards (Jakarta EE)
-- 🗃 **Session Management**: Secure login control with `HttpSession`
+- 🗃 **In-Memory Session Management**: Secure login control with `HttpSession`
 - 💾 **Message Persistence**: Uses `localStorage` to retain the latest message on reload
-
 ---
 
 ## 🛠️ Technologies Used
