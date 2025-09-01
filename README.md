@@ -24,28 +24,6 @@ A real-time web-based notification system for library environments. It allows ad
 
 ---
 
-## 🖥️ Project Structure
-
-LibraryNotificationSystem/
-│
-├── src/
-│ └── main/
-│ └── java/
-│ └── com/
-│ └── library/
-│ ├── SendNotificationServlet.java # Handles POST request and triggers broadcast
-│ └── NotificationEndpoint.java # WebSocket server endpoint
-│
-├── web/
-│ ├── serverSide.jsp # Admin interface to send notifications
-│ ├── notification.jsp # User view to receive real-time notifications
-│ ├── login.jsp # Login page (session control)
-│ ├── home.jsp # Home/landing page
-│ └── CSS/
-│ └── style.css # Styling for all pages
-
----
-
 ## 🧪 How to Run
 
 1. **Clone the repository:**
